@@ -25,6 +25,7 @@ h1 {
   font-weight: 300;
   transition: all 0.3s ease 0s;
   cursor: pointer;
+  border: none;
 }
 
 .btn__med:hover {

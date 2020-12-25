@@ -34,7 +34,7 @@
   min-height: 580px;
 }
 
-.header__info {
+.header__section {
   max-width: 580px;
   margin-top: 40px;
 }
@@ -49,4 +49,15 @@
   font-weight: 300;
   color: white;
   margin: 0 0 30px 0;
+}
+
+@media screen and (max-width: 800px) {
+  .header__title {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+
+  .header__subtitle {
+    font-size: 15px;
+  }
 }
